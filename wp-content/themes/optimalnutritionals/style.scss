@@ -18,6 +18,8 @@ a img {border:none}
 
 $purple: #53535e;
 $yellow: #fcca49;
+$teal: #599dac;
+$black: #171717;
 
 
 html {-webkit-text-size-adjust: 100%;} // Disables scaling on landscape mobile
@@ -28,6 +30,7 @@ body {
 -moz-osx-font-smoothing: grayscale;
 text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
 font-family: 'Lato', sans-serif;
+color:$black;
 }
 
 
@@ -46,6 +49,7 @@ header, section, nav, footer {
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 300;
+	padding-top:15px;
 	.inner_top {
 		border:1px solid #fff;
 		width:90%;
@@ -53,7 +57,7 @@ header, section, nav, footer {
 		padding:10px 10px 0px 10px;
 		
 		span.optimal_title {
-			font-size: 16px;
+			font-size: 18px;
 			background: $purple;
 			padding:0 9px;
 			position: relative;
@@ -61,11 +65,13 @@ header, section, nav, footer {
 			top:-20px;
 		}
 		.product_title_wrapper {
-				span.product_title {
+				h1.product_title {
 					color:$yellow;
 					font-size:35px;
 					line-height: 42px;
 					display: block;
+					font-style: normal;
+					font-weight: 300;
 				}
 				span.large_description {
 					display: block;
@@ -98,11 +104,11 @@ header, section, nav, footer {
 			z-index: 5;
 			
 			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#322f39+0,3d3844+40,3d3844+62,322f39+100 */
-background: #322f39; /* Old browsers */
-background: -moz-linear-gradient(top,  #322f39 0%, #3d3844 40%, #3d3844 62%, #322f39 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #322f39 0%,#3d3844 40%,#3d3844 62%,#322f39 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #322f39 0%,#3d3844 40%,#3d3844 62%,#322f39 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#322f39', endColorstr='#322f39',GradientType=0 ); /* IE6-9 */
+			background: #322f39; /* Old browsers */
+			background: -moz-linear-gradient(top,  #322f39 0%, #3d3844 40%, #3d3844 62%, #322f39 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top,  #322f39 0%,#3d3844 40%,#3d3844 62%,#322f39 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  #322f39 0%,#3d3844 40%,#3d3844 62%,#322f39 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#322f39', endColorstr='#322f39',GradientType=0 ); /* IE6-9 */
 
 
 		}
@@ -119,3 +125,94 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#322f39', end
 			z-index: 10;
 			
 		}
+		
+		
+		
+		
+	/* Why */
+	
+	
+	.why {
+		clear:both;
+		text-align: center;
+		margin:100px 0;
+		padding:0 30px;
+		h2 {
+			color:$teal;
+			text-transform: uppercase;
+			font-style: normal;
+			font-weight: 400;
+			font-size:30px;
+		}
+		span.yellowline {
+			width:100px;
+			height:1px;
+			background:$yellow;
+			display: block;
+			margin:8px auto 45px;
+		}
+		.why_content {
+			font-size:20px;
+			font-weight: 300;
+			text-align: left;
+			line-height: 29px;
+			letter-spacing: .4px;
+			p,ul {
+				margin-bottom:25px;
+			}
+			
+		}
+	}
+	
+	.buy_now {
+		max-width: 100%;
+		height:auto;
+		margin-top:20px;
+	}
+	
+	
+	/* Benefits */
+	
+	
+	.benefits {
+		background:url(images/bene-bg.png) top center repeat;
+		background-size:cover;
+		text-align: center;
+		padding:70px 30px;
+		h2 {
+			font-weight: 900;
+			text-transform: uppercase;
+			font-size:30px;
+			
+			span {
+				font-weight: 400;
+				text-transform: none;
+			}
+		}
+		span.description {
+			font-size: 20px;
+			display: block;
+			margin-top:30px;
+		}
+		.benefits_wrapper {
+			margin-top:45px;
+			.single_benefit {
+				margin-bottom:45px;
+				.benefit_img {	
+					margin-bottom:10px;
+					img {
+						max-width: 100%;
+						height:auto;
+					}
+				}
+			}
+			.benefit_content {
+				font-size: 17px;
+			}
+		}
+	}
+	
+	
+	
+	
+	
