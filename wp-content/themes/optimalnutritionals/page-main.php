@@ -55,13 +55,24 @@ get_header(); ?>
 			
 		</div><!-- product_title_wrapper -->
 		
+		<div class="top_image_wrapper">
+			
+			<img src="<?php bloginfo('template_directory');?>/images/woman.png"/>
+			
+		</div><!-- top_image_wrapper -->
+		
 	</div><!-- inner_top -->
+	
+	
+	
+	
+	<div class="purple_bar"></div><!-- purple_bar -->
 	
 	
 </section><!-- top_wrapper-->
 
 
-
+<img class="product_image" src="<?php bloginfo('template_directory');?>/images/bottle.png"/><!-- product_image -->
 
 
 
