@@ -9,10 +9,11 @@ get_header(); ?>
 
 
 
-<!--
+
 <?php $url = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>
 
 
+<!--
 <?php if (strpos($url,'ubiquinol') !== false) {?>
    
    
@@ -20,6 +21,7 @@ get_header(); ?>
 
 
 <?php } ?>
+-->
 
 
 
@@ -27,7 +29,7 @@ get_header(); ?>
 
 
 
-<?php if (strpos($url,'krill-oil') !== false) {?>
+<!-- <?php if (strpos($url,'krill-oil') !== false) {?>
    
    
    Krill Oil content
@@ -48,7 +50,24 @@ get_header(); ?>
 		
 		<div class="product_title_wrapper">
 			
-			<h1 class="product_title">Ubiquinol</h1><!-- product_title -->
+			
+<?php if (strpos($url,'ubiquinol') !== false) {?>
+   
+   
+   <h1 class="product_title">Ubiquinol</h1><!-- product_title -->
+
+
+<?php } ?>
+
+<?php if (strpos($url,'krill-oil') !== false) {?>
+   
+   
+    <h1 class="product_title">Krill Oil</h1>
+
+
+<?php } ?>
+			
+			
 			<span class="large_description">Softgels</span><!-- large_description -->
 			<span class="sub_description">CoQ10 100 mg 60</span><!-- sub_description -->
 			<span class="sub_description">antioxidant</span><!-- sub_description -->
@@ -96,7 +115,7 @@ get_header(); ?>
 
 <section class="benefits">
 	
-	<h2>The Benefits <span>of Using Ubiquinol</span></h2>
+	<h2>The Benefits <span>of Using&nbsp;Ubiquinol</span></h2>
 	
 	<span class="description">Lorem Ipsum cepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserun</span><!-- description -->
 	
