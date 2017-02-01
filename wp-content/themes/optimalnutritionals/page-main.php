@@ -44,7 +44,12 @@ get_header(); ?>
 <section class="top_wrapper">
 	
 	
+	<div class="container">
+	
+	
 	<div class="inner_top">
+		
+		
 		
 		<span class="optimal_title">Optimal Nutritionals</span><!-- optimal_title -->
 		
@@ -80,19 +85,14 @@ get_header(); ?>
 			
 		</div><!-- top_image_wrapper -->
 		
+		<div style="clear:both"></div>
+		
 	</div><!-- inner_top -->
 	
-	
-	
-	
-	<div class="purple_bar"></div><!-- purple_bar -->
-	
-	
-</section><!-- top_wrapper-->
-
 <a href="">
-<img class="product_image" src="<?php bloginfo('template_directory');?>/images/bottle.png"/><!-- product_image -->
+<img class="product_image" src="<?php bloginfo('template_directory');?>/images/bottle.png"/>
 </a>
+
 
 <div id="myform" class="form_wrapper">
 	
@@ -101,8 +101,23 @@ get_header(); ?>
 	
 	<?php gravity_form(1, false, false, false, '', true, 12); ?>
 	
+
 	
 </div><!-- form_wrapper -->
+<div style="clear:both"></div>
+
+</div><!-- container -->
+	
+	
+	
+	<div class="purple_bar"></div><!-- purple_bar -->
+	
+	
+</section><!-- top_wrapper-->
+
+
+
+
 
 <section class="why">
 	
@@ -129,6 +144,15 @@ get_header(); ?>
 	<h2>The Benefits <span>of Using&nbsp;Ubiquinol</span></h2>
 	
 	<span class="description">Lorem Ipsum cepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserun</span><!-- description -->
+	
+	
+	<div class="benefits_container">
+	
+	<div class="girl_wrapper">
+	
+		<img src="<?php bloginfo('template_directory');?>/images/girl.png"/>
+	
+	</div><!-- girl_wrapper -->
 	
 	<div class="benefits_wrapper">
 		
@@ -220,6 +244,8 @@ get_header(); ?>
 				
 	</div><!-- benfits_wrapper -->
 	
+	</div><!-- benefits_container -->
+	
 </section><!-- benefits -->
 
 <section class="testimonials">
@@ -282,6 +308,9 @@ get_header(); ?>
 
 <section class="buy_now_section">
 	
+	
+	<div class="buy_now_container">
+	
 	<div class="content">
 		
 		<span class="sub_header">Lorem ipsum dolor sit ame ipsum </span>
@@ -298,6 +327,8 @@ get_header(); ?>
 	<img class="buy_now_product_image" src="<?php bloginfo('template_directory');?>/images/bottle.png"/><!-- product_image -->
 	
 	</a>
+	
+	</div><!-- buy_now_container -->
 
 </section><!-- buy_now_section -->
 
