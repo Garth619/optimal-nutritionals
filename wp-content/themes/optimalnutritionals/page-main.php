@@ -94,6 +94,16 @@ get_header(); ?>
 <img class="product_image" src="<?php bloginfo('template_directory');?>/images/bottle.png"/><!-- product_image -->
 </a>
 
+<div id="myform" class="form_wrapper">
+	
+	<span class="subheader">LEARN MORE ToDAY!</span>
+	<a class="tel" href="tel:">555.555.5555</a>
+	
+	<?php gravity_form(1, false, false, false, '', true, 12); ?>
+	
+	
+</div><!-- form_wrapper -->
+
 <section class="why">
 	
 	<h2>Why Ubiquinol?</h2>
@@ -368,7 +378,7 @@ get_header(); ?>
 
 <div class="mobile_bar">
 	
-	<a class="contact_us" href="">Contact Us</a>
+	<a class="contact_us" href="#myform">Contact Us</a>
 	<a class="footer_buy_now" href="">Buy Now</a>
 	
 </div><!-- mobile_bar -->
