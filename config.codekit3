@@ -7037,6 +7037,12 @@
 		"oAP": "\/wp-content\/themes\/optimalnutritionals\/onecolumn-page.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/optimalnutritionals\/page-main copy.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/optimalnutritionals\/page-main copy.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/optimalnutritionals\/page-main.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -7047,6 +7053,24 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/optimalnutritionals\/page.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/optimalnutritionals\/products\/astaxanthin.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/optimalnutritionals\/products\/astaxanthin.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/optimalnutritionals\/products\/form.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/optimalnutritionals\/products\/form.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/optimalnutritionals\/products\/testimonials.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/optimalnutritionals\/products\/testimonials.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/optimalnutritionals\/readme.txt": {

@@ -219,6 +219,13 @@ header, section, nav, footer {
 		font-size:13px;
 		margin-top:4px
 	}
+	
+	.gform_confirmation_message {
+		font-weight: 900;
+		margin:35px auto 0;
+		max-width:400px;
+		
+	}
 		
 	/* Why */
 	
@@ -542,9 +549,56 @@ header, section, nav, footer {
 	
 	
 	img.product_image {
-			
+			width:140px;
+			left:5%;
 			
 		}
+		
+		
+		
+		
+		.form_wrapper {
+			top:-69px;
+			padding-top:100px;
+		}
+		
+		
+		
+		
+		.top_wrapper {
+
+	.inner_top {
+		
+		
+		span.optimal_title {
+			
+		}
+		.product_title_wrapper {
+				h1.product_title {
+					
+				}
+				span.large_description {
+					
+				}
+				span.sub_description {
+					
+				}
+			}
+		}
+		.top_image_wrapper {
+		
+			img {
+			
+			}
+		}
+		.purple_bar {
+			margin-top:-69px;
+		}
+		
+	}
+
+		
+		
 		
 		
 	} /* Media Query */
@@ -579,7 +633,7 @@ header, section, nav, footer {
 	
 .top_wrapper {
 	background-size: 1300px auto;
-	
+	overflow: visible;
 	.container {
 		max-width:1020px;
 		margin:0 auto;
@@ -592,6 +646,8 @@ header, section, nav, footer {
 		width:58%;
 		float:left;
 		margin:48px 0px 0;
+		height:615px;
+		position: relative;
 		span.optimal_title {
 			margin-left:20px;
 			font-size:27px;
@@ -615,8 +671,10 @@ header, section, nav, footer {
 		.top_image_wrapper {
 			margin-top:0;
 			img {
-				
-	 margin-top: -45px;
+				position: absolute;
+				top:130px;
+				right:-45px;
+	
 			}
 		}
 		.purple_bar {
@@ -628,8 +686,10 @@ header, section, nav, footer {
 	
 	img.product_image {
 			position: absolute;
-			bottom:0;
-			left:0;
+			bottom:-35px;
+			left:5%;
+			z-index:1000000000000;
+			width:170px;
 	}
 	
 	
@@ -647,6 +707,7 @@ header, section, nav, footer {
 		padding:27px 34px;
 		top:0;
 		position: relative;
+		height:650px;
 		.arrow {
 			position: absolute;
 			 bottom: 70px;
@@ -846,7 +907,7 @@ header, section, nav, footer {
 		
 		
 		
-		/* Benefits */
+	/* Benefits */
 	
 	
 	.benefits {
