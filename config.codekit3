@@ -4408,11 +4408,43 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/themes\/optimalnutritionals\/images\/bottom-bg.png": {
+		"ft": 32768,
+		"iS": 72958,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/optimalnutritionals\/images\/bottom-bg.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/themes\/optimalnutritionals\/images\/buynow.png": {
 		"ft": 32768,
 		"iS": 30106,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/optimalnutritionals\/images\/buynow.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/optimalnutritionals\/images\/real-results.png": {
+		"ft": 32768,
+		"iS": 5710,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/optimalnutritionals\/images\/real-results.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/optimalnutritionals\/images\/real_people.png": {
+		"ft": 32768,
+		"iS": 6115,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/optimalnutritionals\/images\/real_people.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/optimalnutritionals\/images\/square.png": {
+		"ft": 32768,
+		"iS": 2745,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/optimalnutritionals\/images\/square.png",
 		"oF": 0,
 		"opt": 0
 		},

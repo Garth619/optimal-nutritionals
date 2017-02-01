@@ -39,6 +39,22 @@ header, section, nav, footer {
 }
 
 
+		h2 {
+			color:$teal;
+			text-transform: uppercase;
+			font-style: normal;
+			font-weight: 400;
+			font-size:30px;
+		}
+		span.yellowline {
+			width:100px;
+			height:1px;
+			background:$yellow;
+			display: block;
+			margin:8px auto 45px;
+		}
+
+
 
 .top_wrapper {
 	background:url(images/bg.jpg) top center repeat;
@@ -137,20 +153,7 @@ header, section, nav, footer {
 		text-align: center;
 		margin:100px 0;
 		padding:0 30px;
-		h2 {
-			color:$teal;
-			text-transform: uppercase;
-			font-style: normal;
-			font-weight: 400;
-			font-size:30px;
-		}
-		span.yellowline {
-			width:100px;
-			height:1px;
-			background:$yellow;
-			display: block;
-			margin:8px auto 45px;
-		}
+		
 		.why_content {
 			font-size:20px;
 			font-weight: 300;
@@ -183,7 +186,7 @@ header, section, nav, footer {
 			font-weight: 900;
 			text-transform: uppercase;
 			font-size:30px;
-			
+			color: #000;
 			span {
 				font-weight: 400;
 				text-transform: none;
@@ -213,6 +216,189 @@ header, section, nav, footer {
 	}
 	
 	
+	/* Testimonials */
+	
+	
+	.testimonials {
+		text-align: center;
+		padding:100px 30px 50px;
+		.testimonials_wrapper {
+			margin-top:115px;
+			.single_testimonial {
+				
+				margin-bottom:100px;
+				.testimonial_profile {
+					width:200px;
+					margin:0 auto;
+					position: relative;
+				}
+				img.real_results {
+					right: -37px;
+					position: absolute;
+					top: -34px;
+				}
+				img.real_people {
+					left: -37px;
+					position: absolute;
+					top: -34px;
+				}
+				img.testimonial_pic {
+					width:200px;
+					border-radius: 50%;
+					border:4px #fff solid;
+					-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.46);
+					-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.46);
+					box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.46);
+				}
+				span.name {
+					background: $yellow;
+					color:#000;
+					font-size:22px;
+					position: relative;
+					top:-15px;
+					display: inline-block;
+					padding:3px 20px;
+				}
+			}
+			.testimonial_content {
+				font-size: 20px;
+				font-weight: 300;
+				line-height: 27px;
+				margin-top:20px;
+				color:$black;
+				p {
+					margin-bottom:20px;
+				}
+			}
+		}
+	}
+	
+	
+	/* Buy Now */
+	
+	.buy_now_section {
+		background: url(images/bottom-bg.png) top center repeat;
+		background-size:cover;
+		width:100%;
+		text-align: center;
+		padding:50px 30px;
+		
+		.content {
+			span.sub_header {
+				color:#fff;
+				display: block;
+				font-size: 31px;
+				text-transform: uppercase;
+				font-weight: 300;
+				line-height: 35px;
+				margin-bottom:10px;
+			}
+			span.large_header {
+				color:$yellow;
+				display: block;
+				font-size:43px;
+				text-transform: uppercase;
+				line-height: 45px;
+			}
+			img.buy_now {
+				margin-top:22px;
+			}
+		}
+		img.buy_now_product_image {
+			margin-top:50px;
+		}
+	}
+	
+	
+	/* Other Products */
+	
+	
+	.other_products {
+		text-align: center;
+		padding:75px 30px;
+		.product_wrapper {
+			margin-top:70px;
+			.single_product {
+				margin-bottom:85px;
+				&:last-of-type {
+					margin-bottom:0;
+				}
+				a {
+					color:$black;
+					text-decoration: none;
+					img {
+						display: block;
+						margin: 0 auto 30px;
+					}
+					span.product_title {
+						font-size: 24px;
+						display: block;
+					}
+					span.product_subtitle {
+						font-size: 23px;
+						font-weight: 300;
+						display: block;
+					}
+					span.buy_now_button {
+						display:inline-block;
+						background: $teal;
+						color:#fff;
+						padding:7px 24px;
+						text-transform: uppercase;
+						font-size:22px;
+						font-weight: 600;
+						margin-top:20px;
+					}
+				}
+			}
+		}
+	}
+	
+	
+	/* Footer */
+	
+	
+	footer {
+		text-align: center;
+		padding:0 30px 70px;
+		span {
+			color:#b7b7b7;
+			font-size:15px;
+		}
+	}
+	
+	
+	.mobile_bar {
+		position: fixed;
+		bottom:0;
+		width:100%;
+		left:0;
+		z-index:100;
+		text-decoration: none;
+		overflow: hidden;
+		
+		a {
+			color:#fff;
+			text-decoration: none;
+			float:left;
+			display: block;
+			font-size:21px;
+		}
+		.contact_us {
+			background:$teal;
+			width:70%;
+			padding:5px 0 5px 9px;
+			display: block;
+			
+		}
+		.footer_buy_now {
+			background: $purple;
+			width:30%;
+			padding:5px 0 5px 9px;
+			display: block;
+			color:#fff;
+		}
+	}
 	
 	
 	
