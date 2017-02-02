@@ -24,6 +24,6 @@ jQuery(function() {
 });
 
 </script>
-
+<?php the_field('tracking_code_in_closing_body');?>
 </body>
 </html>

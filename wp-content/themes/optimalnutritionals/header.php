@@ -39,9 +39,8 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link href="https://fonts.googleapis.com/css?family=Lato:300,400,900" rel="stylesheet">
 <?php wp_head();?>
+<?php the_field('tracking_code_head');?>
 </head>
 
 <body <?php body_class(); ?>>
 	
-
-			
