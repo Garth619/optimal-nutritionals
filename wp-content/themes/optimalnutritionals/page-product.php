@@ -50,7 +50,7 @@ get_header(); ?>
 	</div><!-- inner_top -->
 	
 
-		<a href="<?php the_field('buy_now_link');?>" target="_blank">
+		<a <?php the_field('onclick');?> href="<?php the_field('buy_now_link');?>" target="_blank">
 				<img class="product_image" src="<?php the_field('product_image');?>"/>
 			</a>   
 			 
@@ -94,7 +94,7 @@ get_header(); ?>
 	
 			 	<?php the_field('why_section_content');?>
 		
-			 	<a href="<?php the_field('buy_now_link');?>" target="_blank">
+			 	<a <?php the_field('onclick');?> href="<?php the_field('buy_now_link');?>" target="_blank">
 			 	<img class="buy_now" src="<?php bloginfo('template_directory');?>/images/buynow.png"/>
 			</a>
 
@@ -234,13 +234,13 @@ get_header(); ?>
 		<span class="sub_header"><?php the_field('buy_now_banner_sub_header');?></span>
 		<span class="large_header"><?php the_field('buy_now_banner_large_header');?></span>
 		
-		<a href="<?php the_field('buy_now_link');?>" target="_blank">
+		<a <?php the_field('onclick');?> href="<?php the_field('buy_now_link');?>" target="_blank">
 			<img class="buy_now" src="<?php bloginfo('template_directory');?>/images/buynow.png"/>
 		</a>
 		
 	</div><!-- content -->
 
-	<a href="<?php the_field('buy_now_link');?>" target="_blank">
+	<a <?php the_field('onclick');?> href="<?php the_field('buy_now_link');?>" target="_blank">
 	
 	<img class="buy_now_product_image" src="<?php bloginfo('template_directory');?>/images/bottle.png"/><!-- product_image -->
 	
@@ -267,7 +267,7 @@ get_header(); ?>
 				
 				<div class="single_product">
 			
-				<a href="<?php the_sub_field('other_product_link');?>" target="_blank">
+				<a <?php the_sub_field('other_product_onclick');?> href="<?php the_sub_field('other_product_link');?>" target="_blank">
 				
 					<img src="<?php the_sub_field('other_product_image');?>"/>
 					<span class="product_title"><?php the_sub_field('other_product_title');?></span>
@@ -299,7 +299,7 @@ get_header(); ?>
 <div class="mobile_bar">
 	
 	<a class="contact_us" href="#myform">Contact Us</a>
-	<a class="footer_buy_now" href="<?php the_field('buy_now_link');?>" target="_blank">Buy Now</a>
+	<a <?php the_field('onclick');?> class="footer_buy_now" href="<?php the_field('buy_now_link');?>" target="_blank">Buy Now</a>
 	
 </div><!-- mobile_bar -->
 
