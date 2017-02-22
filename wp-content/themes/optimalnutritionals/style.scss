@@ -138,10 +138,10 @@ header, section, nav, footer {
 	
 	
 	img.product_image {
-			width:120px;
+			height:200px;
 			float:left;
 			 margin-top: -210px;
-			margin-left:30px;
+			margin-left:0px;
 			position: relative;
 			z-index: 10;
 			
@@ -555,9 +555,9 @@ header, section, nav, footer {
 	
 	
 	img.product_image {
-			width:140px;
+// 			width:140px;
 			left:5%;
-			
+			height:265px;
 		}
 		
 		
@@ -695,7 +695,7 @@ header, section, nav, footer {
 			bottom:-35px;
 			left:5%;
 			z-index:1000000000000;
-			width:170px;
+			height:300px;
 	}
 	
 	
@@ -914,7 +914,7 @@ header, section, nav, footer {
 			bottom:-35px;
 			left:5%;
 			z-index:1000000000000;
-			width:170px;
+			height:325px;
 	}
 
 		
