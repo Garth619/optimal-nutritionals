@@ -59,7 +59,7 @@ get_header(); ?>
 		<div id="myform" class="form_wrapper">
 	
 	<span class="subheader">LEARN MORE ToDAY!</span>
-	<a class="tel" href="tel:"><?php the_field('phone_number');?></a>
+<!-- 	<a class="tel" href="tel:"><?php the_field('phone_number');?></a> -->
 	
 	<?php gravity_form(1, false, false, false, '', true, 12); ?>
 	
@@ -241,8 +241,12 @@ get_header(); ?>
 	</div><!-- content -->
 
 	<a <?php the_field('onclick');?> href="<?php the_field('buy_now_link');?>" target="_blank">
+		
+		<a <?php the_field('onclick');?> href="<?php the_field('buy_now_link');?>" target="_blank">
+				<img class="buy_now_product_image" src="<?php the_field('product_image');?>"/>
+			</a>  
 	
-	<img class="buy_now_product_image" src="<?php bloginfo('template_directory');?>/images/bottle.png"/><!-- product_image -->
+<!-- 	<img class="buy_now_product_image" src="<?php bloginfo('template_directory');?>/images/bottle.png"/> --><!-- product_image -->
 	
 	</a>
 	
